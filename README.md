@@ -6,8 +6,8 @@ Extracting Stock/Revenue Data:
 Modes of Data Extractions:
 --------------------------
 
-    1. For extracting stock data I will be using yfinance API.
-    2. For Revenue extraction I'll use Web Scrapping.
+    1. For extracting stock data yfinance API is in use.
+    2. For Revenue extraction Web Scrapping is in use.
 
 Installation Required:
 ----------------------
