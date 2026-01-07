@@ -88,7 +88,7 @@ for row in tbody.find_all("tr"): #looping through table data
     date = col[0].text.strip() # indexing date column
     revenue = col[1].text.strip() # indexing revenue column
 
-    gme_revenue = pd.concat([tesla_revenue, pd.DataFrame({"Date": [date], "Revenue": [revenue]})], ignore_index = True) # storing extracted date to the DataFram
+    gme_revenue = pd.concat([gme_revenue, pd.DataFrame({"Date": [date], "Revenue": [revenue]})], ignore_index = True) # storing extracted date to the DataFram
 gme_revenue
 
 # Removing comma and $ sign from the revenue column.
