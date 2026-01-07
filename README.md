@@ -11,12 +11,12 @@ Modes of Data Extractions:
 
 Installation Required:
 ----------------------
-    1. !pip install yfinance
+    1.!pip install yfinance
     2.!pip install bs4
 
 Python Libraries that will be used:
 ----------------------------
     1. Pandas
     2. Requests
-    3. BeautfulSoup
+    3. BeautifulSoup
 
