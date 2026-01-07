@@ -11,8 +11,10 @@ Modes of Data Extractions:
 
 Installation Required:
 ----------------------
-    1.!pip install yfinance
-    2.!pip install bs4
+    1. pip install yfinance
+    2. pip install bs4
+    3. pip install pandas
+    4. pip install requests
 
 Python Libraries that will be used:
 ----------------------------
