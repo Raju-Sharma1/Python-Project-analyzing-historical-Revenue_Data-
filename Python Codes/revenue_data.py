@@ -8,16 +8,13 @@ from bs4 import BeautifulSoup
 #===========================================================
 
 # Using Ticker function. (Ticker Symbol for Tesla is "TSLA")
-
 tesla = yf.Ticker("TSLA")
 
 # Extracting all stock information by setting the period parameter to "max" so  we get information for the maximum amount of time and then storing it to a DataFrame
-
 tesla_data = pd.DataFrame(tesla.history(period = "max"))
 tesla_data
 
 # Reseting the index and then storing it into a DataFrame
-
 tesla_data.reset_index(inplace = True)
 tesla_data.head() # viewing the first 5 rows from the DataFrame
 #=================================================================
@@ -31,7 +28,6 @@ html_data = requests.get(url).text # Using requests get function to extract webp
 
 # After data is extracted, we'd have to parse the HTML raw data into searchable format.
 # Here I will be using BeautifulSoup library to parse the data using parser "html.parser"
-
 soup = BeautifulSoup(html_data, "html.parser")
 
 # Extracting the table Tesla Revenue and storing it into a DataFrame. Creating columns "Date" and "Revenue" to store the data extracted from the webpage table.
