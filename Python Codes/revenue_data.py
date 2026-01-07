@@ -100,3 +100,6 @@ tesla_revenue = tesla_revenue[tesla_revenue['Revenue'] != ""]
 
 # Viewing the last 5 rows from the DataFrame.
 gme_revenue.tail()
+
+
+
