@@ -1,6 +1,1 @@
-From the Data Extracted and Stored in revenue_data.py Python file, we can use "matplotlib" library to visualize the data into graphical representation.
-We'd have to create a user defined function for visualizing the data using "matplotlib" library.
-
--OR-
-
-We can store the revenue_data to a excel/PowerBI file to visualize using graphical representation.
+NA
