@@ -51,6 +51,9 @@ tesla_revenue = tesla_revenue[tesla_revenue['Revenue'] != ""]
 
 # Viewing the last 5 rows from the DataFrame.
 tesla_revenue.tail()
+
+# Storing the result to a csv file (tesla_revenue.csv)
+df = tesla_revenue.to_csv("tesla_revenue.csv", index=False)
 #=================================================================
 
 
@@ -100,6 +103,9 @@ tesla_revenue = tesla_revenue[tesla_revenue['Revenue'] != ""]
 
 # Viewing the last 5 rows from the DataFrame.
 gme_revenue.tail()
+
+# Storing the result to a csv file (gme_revenue.csv)
+df = gme_revenue.to_csv("gme_revenue.csv", index=False)
 
 
 
