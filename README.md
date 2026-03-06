@@ -1,20 +1,20 @@
-# 📈 Tesla & GameStop Stock and Revenue Analysis
+# Tesla & GameStop Stock and Revenue Analysis
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes historical stock data and revenue data for **Tesla (TSLA)** and **GameStop (GME)** using Python.  
 
 The objective is to extract, clean, and store financial data using APIs and web scraping techniques, then prepare the data for further analysis and visualization.
 
 ---
 
-## 🚀 Tasks Performed
+##  Tasks Performed
 
-### 🔹 Task 1: Extract Tesla Stock Data
+###  Task 1: Extract Tesla Stock Data
 - Used `yfinance` API to retrieve historical stock data for **TSLA**
 - Extracted maximum available historical data
 - Reset index for structured analysis
 
-### 🔹 Task 2: Extract Tesla Revenue Data (Web Scraping)
+###  Task 2: Extract Tesla Revenue Data (Web Scraping)
 - Scraped revenue data from HTML source using:
   - `requests`
   - `BeautifulSoup`
@@ -22,12 +22,12 @@ The objective is to extract, clean, and store financial data using APIs and web 
 - Removed null and empty values
 - Saved cleaned data to: "tesla_revenue.csv"
 
-### 🔹 Task 3: Extract GameStop Stock Data
+### Task 3: Extract GameStop Stock Data
 - Used `yfinance` API to retrieve historical stock data for **GME**
 - Extracted maximum available data
 - Reset index for structured analysis
 
-### 🔹 Task 4: Extract GameStop Revenue Data (Web Scraping)
+###  Task 4: Extract GameStop Revenue Data (Web Scraping)
 - Scraped revenue data using `BeautifulSoup`
 - Cleaned revenue column (removed `$` and `,`)
 - Removed null and empty values
@@ -36,7 +36,7 @@ The objective is to extract, clean, and store financial data using APIs and web 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 - Python
 - Pandas
 - yfinance API
@@ -45,13 +45,13 @@ The objective is to extract, clean, and store financial data using APIs and web 
 
 ---
 
-## 📂 Output Files
+##  Output Files
 - `tesla_revenue.csv`
 - `gme_revenue.csv`
 
 ---
 
-## 📊 Skills Demonstrated
+##  Skills Demonstrated
 - API Data Extraction
 - Web Scraping
 - Data Cleaning & Transformation
@@ -60,7 +60,7 @@ The objective is to extract, clean, and store financial data using APIs and web 
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 To demonstrate practical implementation of:
 - Financial data extraction
 - Web scraping techniques
